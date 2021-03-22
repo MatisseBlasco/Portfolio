@@ -1,124 +1,112 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-@media screen and (min-width: 676px) and (max-width: 1400px){
-
-
-
-    /**************************HOME-PAGE*********************************************************************************************/
-
-
-
-    body{
-        background-color: black;
-    }
-
-    #logo > img{
-        padding: 1rem;
-        width: 5%;
-        position: absolute;
-    }
-
-    nav > ul{
-        padding: 1rem;
-    }
-
-    nav > ul > li{
-        float: right;
-    }
-
-    nav > ul > li > a{
-        color: white;
-        text-decoration: none;
-        padding: 0.8rem;
-    }
-
-    nav > ul > li > a:hover{
-        color: #2baae1;
-    }
-
-    header{
-        height: 15%;
-    }
-
-    #background-host{
-        width: 100%;
-        height: 94.5vh;
-        background-image: url('medias/fond-menu.jpg');
-        background-size: cover;
-        margin: 0;
-    }
-
-    #div_text{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-end;
-        height: 88vh;
-        width: 100vw;
-    }
-
-    #div_text > h1{
-        color: white;
-        text-transform: uppercase;
-        font-size: 1.3rem;
-    }
-
-    #div_text > h2{
-        color: #2baae1;
-        font-style: italic;
-        margin-top: 1rem;
-        font-size: 1.3rem;
-    }
-
-
-
-    /***************************ABOUT-ME*********************************************************************************************/
-
-
-
-    #section-about_me{
-        margin-top: 5%;
-        height: 100vh;
-        width: 100vw;
-    }
-
-    #div-about_me{
-        color: white;
-        box-sizing: border-box;
-        float: left;
-    }
-
-    #div-about_me > img{
-        padding: 2%;
-        width: 300px;
-        float: left;
-    }
-
-    h3{
-        text-transform: uppercase;
-        color: #2baae1;
-        text-align: center;
-        font-size: 1.3rem;
-        padding: 3%;
-    }
-
-
-
-
-    /*************************MY-SKILL***********************************************************************************************/
-
-
-
-    #section-my_skill{
-        margin-top: 5%;
-        height: 100vh;
-        width: 100vw;
-    }
-    
-    #div-my_skill_img{
-
-    }
+@media screen and (min-width: 676px) {
+  /**************************HOME-PAGE*********************************************************************************************/
+  body {
+    background-color: black;
+  }
+  h3 {
+    text-transform: uppercase;
+    color: #2baae1;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 3%;
+  }
+  .logo > img {
+    padding: 1rem;
+    width: 50px;
+    position: absolute;
+  }
+  .navbar {
+    padding: 1rem;
+  }
+  .navbar__list {
+    float: right;
+  }
+  .navbar__list-link {
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem;
+  }
+  .navbar__list-link:hover {
+    color: #2baae1;
+  }
+  .div-background-host {
+    width: 100%;
+    height: 100vh;
+    background-image: url("medias/fond-menu.jpg");
+    background-size: cover;
+  }
+  .div-background-host__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    height: 93%;
+    width: 100%;
+  }
+  .div-background-host__text-name {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+  }
+  .div-background-host__text-job {
+    color: #2baae1;
+    font-style: italic;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+  }
+  /***************************ABOUT-ME*********************************************************************************************/
+  .section-about-me {
+    margin-top: 5%;
+    height: 100vh;
+    width: 100%;
+  }
+  .section-about-me__div {
+    color: white;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    float: left;
+  }
+  .section-about-me__div > img {
+    padding: 2%;
+    width: 300px;
+    float: left;
+  }
+  /*************************MY-SKILL***********************************************************************************************/
+  .section-my-skill {
+    margin-top: 5%;
+    height: 100vh;
+    width: 100%;
+    background-image: url("medias/fond-competences.jpg");
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .section-my-skill .section-my-skill__div {
+    text-align: center;
+  }
+  .section-my-skill .section-my-skill__div > img {
+    width: 100px;
+    padding: 35px;
+    margin: 0 auto;
+  }
 }
+/*# sourceMappingURL=style.css.map */
