@@ -21,8 +21,9 @@ $blue: #2baae1;
         text-transform: uppercase;
         color: $blue;
         text-align: center;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         padding: 3%;
+        text-align: center;
     }
 
     .logo > img{
@@ -51,7 +52,7 @@ $blue: #2baae1;
 
     .div-background-host{
         width: 100%;
-        height: 100vh;
+        height: 95vh;
         background-image: url('medias/fond-menu.jpg');
         background-size: cover;
 
@@ -66,14 +67,14 @@ $blue: #2baae1;
                 &-name{
                     color: white;
                     text-transform: uppercase;
-                    font-size: 1.3rem;
+                    font-size: 1.7rem;
                 }
 
                 &-job{
                     color: $blue;
                     font-style: italic;
                     margin-top: 1rem;
-                    font-size: 1.3rem;
+                    font-size: 1.5rem;
                 }
         }
     }
@@ -92,13 +93,18 @@ $blue: #2baae1;
         &__div{
             color: white;
             box-sizing: border-box;
-            float: left;
+            float: left;      
         }
-    
+
         &__div > img{
-            padding: 2%;
+            padding: 25px;
             width: 300px;
             float: left;
+        }
+        
+        &__div > p{
+            font-size: 1.2rem;
+            margin: 0 100px;
         }
     }
 
@@ -115,22 +121,59 @@ $blue: #2baae1;
         background-image: url('medias/fond-competences.jpg');
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
 
-        .section-my-skill__div{
+        &__div{
             text-align: center;
+            vertical-align: center;
+            margin: 0px 150px;
+            box-sizing: border-box;
         }
-    
-        .section-my-skill__div > img{
-            width: 100px;
-            padding: 35px;
-            margin: 0 auto;
+  
+        &__div > img{
+            height: 150px;
+            padding: 40px;
         }
     }
 
 
 
+    /***************************PROJET***********************************************************************************************/
 
 
+
+    .section-my-project{
+        height: 100vh;
+        width: 100%;
+
+        &__list{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 15px;
+            justify-content: space-evenly;
+        }
+
+        &__list > img{
+            height: 500px;
+        }
+    }
+
+
+
+    /****************************FORM************************************************************************************************/ 
+
+
+
+    .section-form{
+        height: 100vh;
+        width: 100%;
+
+        &__input{
+            background-image: url('medias/fond-formulaire.jpg');
+            height: 80vh;
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
 
 }
