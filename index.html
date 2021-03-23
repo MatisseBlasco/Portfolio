@@ -15,8 +15,8 @@
         </div>
         <nav>
             <ul id="home" class="navbar">
-                <li class="navbar__list"><a class="navbar__list-link" href="#">Contact</a></li>
-                <li class="navbar__list"><a class="navbar__list-link" href="#">Projets</a></li>
+                <li class="navbar__list"><a class="navbar__list-link" href="#form">Contact</a></li>
+                <li class="navbar__list"><a class="navbar__list-link" href="#my-project">Projets</a></li>
                 <li class="navbar__list"><a class="navbar__list-link" href="#skills">Compétences</a></li>
                 <li class="navbar__list"><a class="navbar__list-link" href="#about-me">Présentation</a></li>
                 <li class="navbar__list"><a class="navbar__list-link" href="#home">Accueil</a></li>
@@ -54,20 +54,21 @@
 
             <div class="section-my-skill__div">
                 <h3>mes compétences</h3>
-                <img src="medias/logo-html5.png" alt="Logo HTML5">
-                <img src="medias/logo-css3.png" alt="Logo CSS3">
-                <img src="medias/logo-javascript.png" alt="Logo javascript">
-                <img src="medias/logo-php.png" alt="Logo PHP">
-                <img src="medias/logo-photoshop.png" alt="Logo Adobe Photoshop">
-                <img src="medias/logo-illustrator.png" alt="Logo Adobe Illustrator">
+                <img src="medias/logohtml.svg" alt="Logo HTML5">
+                <img src="medias/logocss.svg" alt="Logo CSS3">
+                <img src="medias/logojavascript.svg" alt="Logo javascript">
+                <img src="medias/logophp.svg" alt="Logo PHP">
+                <img src="medias/logophotoshop.svg" alt="Logo Adobe Photoshop">
+                <img src="medias/logoillustrator.svg" alt="Logo Adobe Illustrator">
                 <img src="medias/logo-github.png" alt="Logo Github">
-                <img src="medias/logo-sass.png" alt="Logo SASS"> 
+                <img src="medias/logosass.svg" alt="Logo SASS">
+                <img src="medias/logosymfony.svg" alt="Logo Symfony">
             </div>
 
         </section>
 
 
-        <section class="section-my-project">
+        <section id="my-project" class="section-my-project">
             
             <h3>mes projets</h3>
             <div class="section-my-project__list">
@@ -77,35 +78,37 @@
         </section>
 
 
-        <section class="section-form">
+        <section id="form" class="section-form">
 
-            <h3>contact</h3>
-            <form action="index.html" method="POST" id="form">
-                <div class="section-form__input">
-                    <div>
-                        <label for="lastName">Nom</label>
-                        <input type="text" name="name" id="lastName">
-                    </div>
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
-                    </div>
-                    <div>
-                        <label for="subject">Sujet</label>
-                        <input type="text" name="subject" id="subject">
-                    </div>
-                    <div>
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" rows="10" cols="50"></textarea>
-                    </div>
-                    <input type="submit" value="Envoyer">
+            <h3>CONTACT</h3>
+            <div class="section-form__div">
+              <form class="section-form__div-form">
+                
+                <div>
+                  <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Nom" id="name" autocomplete="off" />
                 </div>
-            </form>
+                
+                <div>
+                  <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" autocomplete="off" />
+                </div>
+                
+                <div class="text">
+                  <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="message" placeholder="Message" autocomplete="off"></textarea>
+                </div>
+                    
+                <div class="submit">
+                  <input type="submit" value="ENVOYER" id="button-blue"/>
+                  <div class="ease"></div>
+                </div>
 
+              </form>
+            </div>
 
         </section>
 
     </main>
+
+    <footer>Copyright 2021 </footer>
     
 </body>
 </html>
