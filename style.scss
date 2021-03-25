@@ -627,7 +627,7 @@ html{
   /**************************HOME-PAGE*********************************************************************************************/
 
 
-  
+
    html{
      scroll-behavior: smooth;
  }
@@ -1134,11 +1134,11 @@ nav{
 
     &__div{
       background-color: rgba(143, 143, 143, 0.425);
-      padding-left:50px;
-      padding-right:50px;
-      padding-top:50px;
-      padding-bottom:50px;
-      width: 500px;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      width: 300px;
       height: 375px;
     }
   }
@@ -1268,7 +1268,6 @@ letter-spacing: 1px;
 .logo {
 display: flex;
 justify-content: center;
-
 }
 
 .logo > img{
@@ -1289,6 +1288,7 @@ margin-top: 15px;
   display: inline-block;
 
     &-link{
+      display: none;
         color: white;
         text-decoration: none;
         padding: 0.8rem;
@@ -1358,7 +1358,7 @@ width: 100%;
 }
 
 &__div > p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 100px 50px;
     text-align: justify;
 }
@@ -1446,11 +1446,11 @@ align-items: center;
 
 &__div{
   background-color: rgba(143, 143, 143, 0.425);
-  padding-left:50px;
-  padding-right:50px;
-  padding-top:50px;
-  padding-bottom:50px;
-  width: 500px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 300px;
   height: 375px;
 }
 }
