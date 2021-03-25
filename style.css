@@ -27,7 +27,7 @@ body {
   .logo > img {
     padding: 1rem;
     width: 75px;
-    position: absolute;
+    float: left;
   }
   .navbar {
     margin-top: 15px;
@@ -126,13 +126,13 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    vertical-align: middle;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 90vh;
   }
   .section-my-skill__div > img {
     height: 200px;
@@ -419,13 +419,13 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    vertical-align: middle;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    height: 90vh;
   }
   .section-my-skill__div > img {
     height: 125px;
@@ -612,301 +612,8 @@ body {
   }
   .logo > img {
     padding: 1rem;
-    width: 75px;
-    position: absolute;
-  }
-  .navbar {
-    margin-top: 15px;
-  }
-  .navbar__list {
-    float: right;
-  }
-  .navbar__list-link {
-    color: white;
-    text-decoration: none;
-    padding: 0.8rem;
-    font-size: 1.4rem;
-    letter-spacing: 1px;
-  }
-  .navbar__list-link:hover {
-    color: #2baae1;
-  }
-  .div-background-host {
-    width: 100%;
-    height: 100vh;
-    background-image: url("medias/fond-menu.jpg");
-    background-size: cover;
-  }
-  .div-background-host__text {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    height: 93%;
-    width: 100%;
-  }
-  .div-background-host__text-name {
-    color: white;
-    text-transform: uppercase;
-    font-size: 1.7rem;
-    letter-spacing: 1px;
-  }
-  .div-background-host__text-job {
-    color: #2baae1;
-    font-style: italic;
-    margin-top: 1rem;
-    font-size: 1.5rem;
-    letter-spacing: 1px;
-  }
-  /***************************ABOUT-ME*********************************************************************************************/
-  .section-about-me {
-    height: 100vh;
-    width: 100%;
-  }
-  .section-about-me__div {
-    color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  .section-about-me__div > div {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .section-about-me__div > div > img {
-    margin-top: 3%;
-    margin-left: 5%;
-    width: 250px;
-    height: auto;
-  }
-  .section-about-me__div > p {
-    font-size: 1.2rem;
-    margin: 100px 50px;
-  }
-  /*************************MY-SKILL***********************************************************************************************/
-  .section-my-skill {
-    height: 100vh;
-    width: 100%;
-    background-image: url("medias/fond-competences.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .section-my-skill__div {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    vertical-align: middle;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .section-my-skill__div > img {
-    height: 125px;
-    padding: 40px;
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-  }
-  .section-my-skill__div > img:hover {
-    cursor: pointer;
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-  }
-  /***************************PROJET***********************************************************************************************/
-  .section-my-project {
-    height: 100vh;
-    width: 100%;
-  }
-  .section-my-project__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    padding: 15px;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-  }
-  .section-my-project__list > img {
-    height: 400px;
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-  }
-  .section-my-project__list > img:hover {
-    cursor: pointer;
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-  }
-  /****************************FORM************************************************************************************************/
-  .section-form {
-    background-image: url("medias/fond-formulaire.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 80vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .section-form__div {
-    background-color: rgba(143, 143, 143, 0.425);
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    width: 500px;
-    height: 375px;
-  }
-  .feedback-input {
-    color: white;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    border-radius: 0;
-    line-height: 22px;
-    background-color: #252525;
-    padding: 13px 13px 13px 54px;
-    margin-bottom: 10px;
-    width: 100%;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    border: 3px solid rgba(0, 0, 0, 0);
-  }
-  .feedback-input:focus {
-    background: #383838;
-    -webkit-box-shadow: 0;
-            box-shadow: 0;
-    border: 2px solid #2baae1;
-    color: white;
-    outline: none;
-    padding: 13px 13px 13px 54px;
-  }
-  ::-webkit-input-placeholder {
-    color: white;
-  }
-  :-ms-input-placeholder {
-    color: white;
-  }
-  ::-ms-input-placeholder {
-    color: white;
-  }
-  ::placeholder {
-    color: white;
-  }
-  .focused {
-    color: white;
-    border: #2baae1 solid 3px;
-  }
-  textarea {
-    width: 100%;
-    height: 150px;
-    line-height: 150%;
-    resize: vertical;
-  }
-  input:hover, textarea:hover,
-  input:focus, textarea:focus {
-    background-color: #383838;
-  }
-  #button-blue {
+    width: 50px;
     float: left;
-    width: 100%;
-    border: white solid 2px;
-    cursor: pointer;
-    background-color: #2baae1;
-    color: white;
-    font-size: 24px;
-    padding-top: 22px;
-    padding-bottom: 22px;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    margin-top: -4px;
-    font-weight: 700;
-  }
-  #button-blue:hover {
-    background-color: rgba(0, 0, 0, 0);
-    color: #2baae1;
-  }
-  .submit:hover {
-    color: #2baae1;
-  }
-  .ease {
-    width: 0px;
-    height: 74px;
-    background-color: white;
-    -webkit-transition: .3s ease;
-    transition: .3s ease;
-  }
-  .submit:hover .ease {
-    width: 100%;
-    background-color: white;
-  }
-  .img {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    float: right;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .img > img {
-    width: 40px;
-    padding: 10px 5px;
-  }
-}
-
-@media screen and (min-width: 400px) and (max-width: 699px) {
-  /**************************HOME-PAGE*********************************************************************************************/
-  html {
-    scroll-behavior: smooth;
-  }
-  body {
-    background-color: black;
-    font-family: 'Acme', sans-serif;
-  }
-  h3 {
-    text-transform: uppercase;
-    color: #2baae1;
-    text-align: center;
-    font-size: 2.2rem;
-    padding: 3%;
-    text-align: center;
-    letter-spacing: 1px;
-  }
-  .logo > img {
-    padding: 1rem;
-    width: 75px;
-    position: absolute;
   }
   .navbar {
     margin-top: 15px;
@@ -980,6 +687,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    height: 90vh;
   }
   .section-about-me__div > div > img {
     margin-top: 3%;
@@ -989,7 +697,7 @@ body {
   }
   .section-about-me__div > p {
     font-size: 1.2rem;
-    margin: 100px 50px;
+    margin: 250px 50px;
   }
   /*************************MY-SKILL***********************************************************************************************/
   .section-my-skill {
@@ -1005,13 +713,13 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    vertical-align: middle;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    height: 90vh;
   }
   .section-my-skill__div > img {
     height: 125px;

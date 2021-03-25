@@ -39,7 +39,7 @@ body{
   .logo > img{
       padding: 1rem;
       width: 75px;
-      position: absolute;
+      float: left;
   }
 
   .navbar{
@@ -143,10 +143,9 @@ body{
       &__div{
           display: flex;
           flex-wrap: wrap;
-          vertical-align: middle;
-          align-items: center;
           justify-content: center;
-          // margin: 0px 150px;
+          align-items: center;
+          height: 90vh;
       }
 
       &__div > img{
@@ -448,10 +447,9 @@ body{
         &__div{
             display: flex;
             flex-wrap: wrap;
-            vertical-align: middle;
             align-items: center;
             justify-content: center;
-            // margin: 0px 150px;
+            height: 90vh;
         }
   
         &__div > img{
@@ -645,8 +643,8 @@ body{
 
  .logo > img{
      padding: 1rem;
-     width: 75px;
-     position: absolute;
+     width: 50px;
+     float: left;
  }
 
  .navbar{
@@ -719,6 +717,7 @@ body{
      &__div > div{
        display: flex;
        align-items: center;
+       height: 90vh;
      }
 
      &__div > div > img{
@@ -730,7 +729,7 @@ body{
      
      &__div > p{
          font-size: 1.2rem;
-         margin: 100px 50px;
+         margin: 250px 50px;
      }
  }
 
@@ -750,10 +749,9 @@ body{
      &__div{
          display: flex;
          flex-wrap: wrap;
-         vertical-align: middle;
          align-items: center;
          justify-content: center;
-         // margin: 0px 150px;
+         height: 90vh;
      }
 
      &__div > img{
@@ -923,302 +921,6 @@ body{
   
     @media screen and (min-width: 400px) and (max-width: 699px){
 
-
-
-       /**************************HOME-PAGE*********************************************************************************************/
-   html{
-    scroll-behavior: smooth;
-}
-
-body{
-    background-color: black;
-    font-family: 'Acme', sans-serif;
-}
-
-h3{
-    text-transform: uppercase;
-    color: $blue;
-    text-align: center;
-    font-size: 2.2rem;
-    padding: 3%;
-    text-align: center;
-    letter-spacing: 1px;
-}
-
-.logo > img{
-    padding: 1rem;
-    width: 75px;
-    position: absolute;
-}
-
-.navbar{
-  margin-top: 15px;
-
-    &__list{
-        float: right;
-
-        &-link{
-            color: white;
-            text-decoration: none;
-            padding: 0.8rem;
-            font-size: 1.4rem;
-            letter-spacing: 1px;
-        }
-
-        &-link:hover{
-            color: $blue;
-        }
-    }
-}
-
-.div-background-host{
-    width: 100%;
-    height: 100vh;
-    background-image: url('medias/fond-menu.jpg');
-    background-size: cover;
-
-    &__text{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-end;
-        height: 93%;
-        width: 100%;
-
-            &-name{
-                color: white;
-                text-transform: uppercase;
-                font-size: 1.7rem;
-                letter-spacing: 1px;
-            }
-
-            &-job{
-                color: $blue;
-                font-style: italic;
-                margin-top: 1rem;
-                font-size: 1.5rem;
-                letter-spacing: 1px;
-            }
-    }
-}
-
-
-
-  /***************************ABOUT-ME*********************************************************************************************/
-
-
-
-.section-about-me{
-    height: 100vh;
-    width: 100%;  
-
-    &__div{
-        color: white; 
-        display: flex;
-        justify-content: space-around;   
-    }
-
-    &__div > div{
-      display: flex;
-      align-items: center;
-    }
-
-    &__div > div > img{
-        margin-top: 3%;
-        margin-left: 5%;
-        width: 250px;
-        height: auto;
-    }
-    
-    &__div > p{
-        font-size: 1.2rem;
-        margin: 100px 50px;
-    }
-}
-
-
-
- /*************************MY-SKILL***********************************************************************************************/
-
-
-
- .section-my-skill{
-    height: 100vh;
-    width: 100%;
-    background-image: url('medias/fond-competences.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    &__div{
-        display: flex;
-        flex-wrap: wrap;
-        vertical-align: middle;
-        align-items: center;
-        justify-content: center;
-        // margin: 0px 150px;
-    }
-
-    &__div > img{
-        height: 125px;
-        padding: 40px;
-        transform: scale(1);
-        transition: .3s ease-in-out;
-      }
-
-      &__div >img:hover{
-        cursor: pointer;
-        transform: scale(1.2);
-    }
-}
-
-
-
-/***************************PROJET***********************************************************************************************/
-
-
-
-.section-my-project{
-    height: 100vh;
-    width: 100%;
-
-    &__list{
-        display: flex;
-        flex-wrap: wrap;
-        padding: 15px;
-        justify-content: space-evenly;
-    }
-
-    &__list > img{
-        height: 400px;
-        transform: scale(1);
-        transition: .3s ease-in-out;
-    }
-
-    &__list >img:hover{
-      cursor: pointer;
-      transform: scale(1.2);
-    }
-}
-
-
-
-/****************************FORM************************************************************************************************/ 
-
-
-  
-  .section-form{
-    background-image: url('medias/fond-formulaire.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width:100%;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-    &__div{
-      background-color: rgba(143, 143, 143, 0.425);
-      padding-left:50px;
-      padding-right:50px;
-      padding-top:50px;
-      padding-bottom:50px;
-      width: 500px;
-      height: 375px;
-    }
-  }
-  
-  .feedback-input {
-    color: white;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight:500;
-    font-size: 18px;
-    border-radius: 0;
-    line-height: 22px;
-    background-color: #252525;
-    padding: 13px 13px 13px 54px;
-    margin-bottom: 10px;
-    width:100%;
-    box-sizing: border-box;
-    border: 3px solid rgba(0,0,0,0);
-  }
-  
-  .feedback-input:focus{
-    background: #383838;
-    box-shadow: 0;
-    border: 2px solid $blue;
-    color: white;
-    outline: none;
-    padding: 13px 13px 13px 54px;
-  }
-
-  ::placeholder{
-    color: white;
-  }
-  
-  .focused{
-    color: white;
-    border: $blue solid 3px;
-  }
-      
-  textarea {
-      width: 100%;
-      height: 150px;
-      line-height: 150%;
-      resize:vertical;
-  }
-  
-  input:hover, textarea:hover,
-  input:focus, textarea:focus {
-    background-color: #383838;
-  }
-  
-  #button-blue{
-    float:left;
-    width: 100%;
-    border: white solid 2px;
-    cursor:pointer;
-    background-color: $blue;
-    color: white;
-    font-size:24px;
-    padding-top:22px;
-    padding-bottom:22px;
-    transition: all 0.3s;
-    margin-top:-4px;
-    font-weight:700;
-  }
-
-  #button-blue:hover{
-    background-color: rgba(0,0,0,0);
-    color: $blue;
-  }
-    
-  .submit:hover {
-    color: $blue;
-  }
-    
-  .ease {
-    width: 0px;
-    height: 74px;
-    background-color: white;
-    transition: .3s ease;
-  }
-  
-  .submit:hover .ease{
-    width:100%;
-    background-color: white;
-  }
-
-  .img{
-    display: flex;
-    float: right;
-    justify-content: center;
-  }
-
-  .img > img{
-    width: 40px;
-    padding: 10px 5px;
-  }
  }  
 
 
