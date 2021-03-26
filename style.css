@@ -17,7 +17,7 @@ html {
   }
   h3 {
     text-transform: uppercase;
-    color: #2baae1;
+    color: #2ba9e0;
     text-align: center;
     font-size: 2.2rem;
     padding: 3%;
@@ -28,6 +28,9 @@ html {
     padding: 1rem;
     width: 75px;
     float: left;
+  }
+  #hamburger {
+    display: none;
   }
   .navbar {
     margin-top: 15px;
@@ -43,7 +46,7 @@ html {
     letter-spacing: 1px;
   }
   .navbar__list-link:hover {
-    color: #2baae1;
+    color: #2ba9e0;
   }
   .div-background-host {
     max-width: 100%;
@@ -75,7 +78,7 @@ html {
     letter-spacing: 1px;
   }
   .div-background-host__text-job {
-    color: #2baae1;
+    color: #2ba9e0;
     font-style: italic;
     margin-top: 1rem;
     font-size: 1.5rem;
@@ -221,7 +224,7 @@ html {
     background: #383838;
     -webkit-box-shadow: 0;
             box-shadow: 0;
-    border: 2px solid #2baae1;
+    border: 2px solid #2ba9e0;
     color: white;
     outline: none;
     padding: 13px 13px 13px 54px;
@@ -240,7 +243,7 @@ html {
   }
   .focused {
     color: white;
-    border: #2baae1 solid 3px;
+    border: #2ba9e0 solid 3px;
   }
   textarea {
     width: 100%;
@@ -257,7 +260,7 @@ html {
     width: 100%;
     border: white solid 2px;
     cursor: pointer;
-    background-color: #2baae1;
+    background-color: #2ba9e0;
     color: white;
     font-size: 24px;
     padding-top: 22px;
@@ -269,10 +272,10 @@ html {
   }
   #button-blue:hover {
     background-color: rgba(0, 0, 0, 0);
-    color: #2baae1;
+    color: #2ba9e0;
   }
   .submit:hover {
-    color: #2baae1;
+    color: #2ba9e0;
   }
   .ease {
     width: 0px;
@@ -311,7 +314,7 @@ html {
   }
   h3 {
     text-transform: uppercase;
-    color: #2baae1;
+    color: #2ba9e0;
     text-align: center;
     font-size: 2.2rem;
     padding: 3%;
@@ -322,6 +325,9 @@ html {
     padding: 1rem;
     width: 75px;
     position: absolute;
+  }
+  #hamburger {
+    display: none;
   }
   .navbar {
     margin-top: 15px;
@@ -337,7 +343,7 @@ html {
     letter-spacing: 1px;
   }
   .navbar__list-link:hover {
-    color: #2baae1;
+    color: #2ba9e0;
   }
   .div-background-host {
     max-width: 100%;
@@ -369,7 +375,7 @@ html {
     letter-spacing: 1px;
   }
   .div-background-host__text-job {
-    color: #2baae1;
+    color: #2ba9e0;
     font-style: italic;
     margin-top: 1rem;
     font-size: 1.5rem;
@@ -516,7 +522,7 @@ html {
     background: #383838;
     -webkit-box-shadow: 0;
             box-shadow: 0;
-    border: 2px solid #2baae1;
+    border: 2px solid #2ba9e0;
     color: white;
     outline: none;
     padding: 13px 13px 13px 54px;
@@ -535,7 +541,7 @@ html {
   }
   .focused {
     color: white;
-    border: #2baae1 solid 3px;
+    border: #2ba9e0 solid 3px;
   }
   textarea {
     width: 100%;
@@ -552,7 +558,7 @@ html {
     width: 100%;
     border: white solid 2px;
     cursor: pointer;
-    background-color: #2baae1;
+    background-color: #2ba9e0;
     color: white;
     font-size: 24px;
     padding-top: 22px;
@@ -564,10 +570,10 @@ html {
   }
   #button-blue:hover {
     background-color: rgba(0, 0, 0, 0);
-    color: #2baae1;
+    color: #2ba9e0;
   }
   .submit:hover {
-    color: #2baae1;
+    color: #2ba9e0;
   }
   .ease {
     width: 0px;
@@ -606,7 +612,7 @@ html {
   }
   h3 {
     text-transform: uppercase;
-    color: #2baae1;
+    color: #2ba9e0;
     text-align: center;
     font-size: 2.2rem;
     padding: 3%;
@@ -617,6 +623,9 @@ html {
     padding: 1rem;
     width: 50px;
     float: left;
+  }
+  #hamburger {
+    display: none;
   }
   .navbar {
     margin-top: 15px;
@@ -632,7 +641,7 @@ html {
     letter-spacing: 1px;
   }
   .navbar__list-link:hover {
-    color: #2baae1;
+    color: #2ba9e0;
   }
   .div-background-host {
     max-width: 100%;
@@ -664,7 +673,7 @@ html {
     letter-spacing: 1px;
   }
   .div-background-host__text-job {
-    color: #2baae1;
+    color: #2ba9e0;
     font-style: italic;
     margin-top: 1rem;
     font-size: 1.5rem;
@@ -811,7 +820,7 @@ html {
     background: #383838;
     -webkit-box-shadow: 0;
             box-shadow: 0;
-    border: 2px solid #2baae1;
+    border: 2px solid #2ba9e0;
     color: white;
     outline: none;
     padding: 13px 13px 13px 54px;
@@ -830,7 +839,7 @@ html {
   }
   .focused {
     color: white;
-    border: #2baae1 solid 3px;
+    border: #2ba9e0 solid 3px;
   }
   textarea {
     width: 100%;
@@ -847,7 +856,7 @@ html {
     width: 100%;
     border: white solid 2px;
     cursor: pointer;
-    background-color: #2baae1;
+    background-color: #2ba9e0;
     color: white;
     font-size: 24px;
     padding-top: 22px;
@@ -859,10 +868,10 @@ html {
   }
   #button-blue:hover {
     background-color: rgba(0, 0, 0, 0);
-    color: #2baae1;
+    color: #2ba9e0;
   }
   .submit:hover {
-    color: #2baae1;
+    color: #2ba9e0;
   }
   .ease {
     width: 0px;
@@ -901,7 +910,7 @@ html {
   }
   h3 {
     text-transform: uppercase;
-    color: #2baae1;
+    color: #2ba9e0;
     text-align: center;
     font-size: 2.2rem;
     padding: 3%;
@@ -920,6 +929,9 @@ html {
     margin-top: 1rem;
     width: 60px;
     float: none;
+  }
+  #hamburger {
+    display: none;
   }
   nav {
     display: -webkit-box;
@@ -943,7 +955,7 @@ html {
     letter-spacing: 1px;
   }
   .navbar__list-link:hover {
-    color: #2baae1;
+    color: #2ba9e0;
   }
   .div-background-host {
     max-width: 100%;
@@ -975,7 +987,7 @@ html {
     letter-spacing: 1px;
   }
   .div-background-host__text-job {
-    color: #2baae1;
+    color: #2ba9e0;
     font-style: italic;
     margin-top: 1rem;
     font-size: 1.5rem;
@@ -1114,7 +1126,7 @@ html {
     background: #383838;
     -webkit-box-shadow: 0;
             box-shadow: 0;
-    border: 2px solid #2baae1;
+    border: 2px solid #2ba9e0;
     color: white;
     outline: none;
     padding: 13px 13px 13px 54px;
@@ -1133,7 +1145,7 @@ html {
   }
   .focused {
     color: white;
-    border: #2baae1 solid 3px;
+    border: #2ba9e0 solid 3px;
   }
   textarea {
     width: 100%;
@@ -1150,7 +1162,7 @@ html {
     width: 100%;
     border: white solid 2px;
     cursor: pointer;
-    background-color: #2baae1;
+    background-color: #2ba9e0;
     color: white;
     font-size: 24px;
     padding-top: 22px;
@@ -1162,10 +1174,10 @@ html {
   }
   #button-blue:hover {
     background-color: rgba(0, 0, 0, 0);
-    color: #2baae1;
+    color: #2ba9e0;
   }
   .submit:hover {
-    color: #2baae1;
+    color: #2ba9e0;
   }
   .ease {
     width: 0px;
@@ -1204,7 +1216,7 @@ html {
   }
   h3 {
     text-transform: uppercase;
-    color: #2baae1;
+    color: #2ba9e0;
     text-align: center;
     font-size: 2.2rem;
     padding: 3%;
@@ -1220,9 +1232,15 @@ html {
             justify-content: center;
   }
   .logo > img {
-    margin-top: 1rem;
+    margin-top: 25px;
     width: 60px;
     float: none;
+  }
+  #hamburger > img {
+    width: 40px;
+    top: 25px;
+    right: 25px;
+    position: absolute;
   }
   nav {
     display: -webkit-box;
@@ -1231,23 +1249,41 @@ html {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    position: absolute;
+    width: 100%;
+  }
+  #menu {
+    display: none;
+  }
+  #menu.showMenu {
+    display: block;
   }
   .navbar {
-    margin-top: 15px;
+    margin-top: 10px;
   }
   .navbar__list {
-    display: inline-block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #2baae17e;
   }
   .navbar__list-link {
-    display: none;
     color: white;
     text-decoration: none;
-    padding: 0.8rem;
-    font-size: 1rem;
+    padding: 0.2rem;
+    font-size: 1.2rem;
     letter-spacing: 1px;
+    border-bottom: 1px solid white;
   }
   .navbar__list-link:hover {
-    color: #2baae1;
+    color: #2ba9e0;
   }
   .div-background-host {
     max-width: 100%;
@@ -1279,7 +1315,7 @@ html {
     letter-spacing: 1px;
   }
   .div-background-host__text-job {
-    color: #2baae1;
+    color: #2ba9e0;
     font-style: italic;
     margin-top: 1rem;
     font-size: 1.5rem;
@@ -1418,7 +1454,7 @@ html {
     background: #383838;
     -webkit-box-shadow: 0;
             box-shadow: 0;
-    border: 2px solid #2baae1;
+    border: 2px solid #2ba9e0;
     color: white;
     outline: none;
     padding: 13px 13px 13px 54px;
@@ -1437,7 +1473,7 @@ html {
   }
   .focused {
     color: white;
-    border: #2baae1 solid 3px;
+    border: #2ba9e0 solid 3px;
   }
   textarea {
     width: 100%;
@@ -1454,7 +1490,7 @@ html {
     width: 100%;
     border: white solid 2px;
     cursor: pointer;
-    background-color: #2baae1;
+    background-color: #2ba9e0;
     color: white;
     font-size: 24px;
     padding-top: 22px;
@@ -1466,10 +1502,10 @@ html {
   }
   #button-blue:hover {
     background-color: rgba(0, 0, 0, 0);
-    color: #2baae1;
+    color: #2ba9e0;
   }
   .submit:hover {
-    color: #2baae1;
+    color: #2ba9e0;
   }
   .ease {
     width: 0px;

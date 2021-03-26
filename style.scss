@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Dancing+Script:wght@700&display=swap');
 // font-family: 'Acme', sans-serif;
 // font-family: 'Dancing Script', cursive;
-$blue: #2baae1;
+$blue: #2ba9e0;
 
 *{
     margin: 0;
@@ -40,6 +40,10 @@ html{
       padding: 1rem;
       width: 75px;
       float: left;
+  }
+
+  #hamburger{
+    display: none;
   }
 
   .navbar{
@@ -347,6 +351,10 @@ html{
         position: absolute;
     }
 
+    #hamburger{
+      display: none;
+    }
+
     .navbar{
       margin-top: 15px;
 
@@ -651,6 +659,10 @@ html{
      padding: 1rem;
      width: 50px;
      float: left;
+ }
+
+ #hamburger{
+   display: none;
  }
 
  .navbar{
@@ -965,6 +977,10 @@ h3{
     float: none;
 }
 
+#hamburger{
+  display: none;
+}
+
 nav{
   display: flex;
   justify-content: center;
@@ -1271,29 +1287,49 @@ justify-content: center;
 }
 
 .logo > img{
-margin-top: 1rem;
+margin-top: 25px;
 width: 60px;
 float: none;
+}
+
+#hamburger > img{
+  width: 40px;
+  top: 25px;
+  right: 25px;
+  position: absolute;
 }
 
 nav{
 display: flex;
 justify-content: center;
+position: absolute;
+width: 100%;
+}
+
+#menu{
+  display: none;
+}
+
+#menu.showMenu{
+  display: block;
 }
 
 .navbar{
-margin-top: 15px;
+margin-top: 10px;
 
 &__list{
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2baae17e;
 
     &-link{
-      display: none;
-        color: white;
+        color:white;
         text-decoration: none;
-        padding: 0.8rem;
-        font-size: 1rem;
+        padding: 0.2rem;
+        font-size: 1.2rem;
         letter-spacing: 1px;
+        border-bottom: 1px solid white;
     }
 
     &-link:hover{
