@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
+<?php
+
+?>
 <body>
     <header>
         
@@ -19,7 +22,9 @@
         </div>
 
         <nav id="menu">
-            <button id="close">Close</button>
+            <button id="close"><div>
+                &times;
+            </div></button>
             <ul id="home" class="navbar">
                 <li class="navbar__list"><a class="navbar__list-link" href="#form">Contact</a></li>
                 <li class="navbar__list"><a class="navbar__list-link" href="#my-project">Projets</a></li>
@@ -91,28 +96,28 @@
         <section class="section-form">
 
             <div class="section-form__div">
-                <form class="section-form__div-form">
+                <form action="mail.php" method="POST" class="section-form__div-form">
                 
                 <div>
                   <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Nom" id="name" autocomplete="off" />
                 </div>
                 
                 <div>
-                  <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" autocomplete="off" />
+                  <input name="email" type="email" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" autocomplete="off" />
                 </div>
                 
                 <div class="text">
-                  <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="message" placeholder="Message" autocomplete="off"></textarea>
+                  <textarea name="message" class="validate[required,length[6,300]] feedback-input" id="message" placeholder="Message" autocomplete="off"></textarea>
                 </div>
                     
                 <div class="submit">
-                  <input type="submit" value="ENVOYER" id="button-blue"/>
+                  <input name="submit" type="submit" value="ENVOYER" id="button-blue"/>
                   <div class="ease"></div>
                 </div>
 
                 <div class="img">
-                    <img src="medias/logo-linkedin.png" alt="Logo Linkedin">
-                    <img src="medias/logo-github.svg" alt="Logo Github">
+                     <a href="https://www.linkedin.com/in/matisse-blasco-9975b7186/"><img src="medias/logo-linkedin.png" alt="Logo Linkedin"></a>
+                    <a href="https://github.com/MatisseBlasco"><img src="medias/logo-github.svg" alt="Logo Github"></a>
                 </div>
 
               </form>
