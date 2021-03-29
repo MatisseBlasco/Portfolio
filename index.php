@@ -128,7 +128,7 @@
                     $mail = mail($dest, $subject, $message, $header);
                     if($mail){
                         echo '<div id="modal">
-                        <p>Votre email a bien été envoyé</p>
+                        <p>Votre email à bien été envoyé <br>Cliquez pour fermer</p>
                         </div>';
                     }         
                 }
