@@ -96,7 +96,7 @@
         <section class="section-form">
 
             <div class="section-form__div">
-                <form action="mail.php" method="POST" class="section-form__div-form">
+                <form method="POST" class="section-form__div-form">
                 
                 <div>
                   <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Nom" id="name" autocomplete="off" />
@@ -114,6 +114,25 @@
                   <input name="submit" type="submit" value="ENVOYER" id="button-blue"/>
                   <div class="ease"></div>
                 </div>
+
+                <?php
+                if(isset($_POST['submit']) && !empty($_POST['message'])) {
+                                        
+                    $dest = "matisseblascotest@gmail.com";
+                    $mail = $_POST['email'];
+                    $subject = 'Portfolio';
+                    $name = $_POST['name'];
+                    $message = $_POST['message'];
+                    $header = "From: $mail";
+                                                    
+                    $mail = mail($dest, $subject, $message, $header);
+                    if($mail){
+                        echo '<div id="modal">
+                        <p>Votre email a bien été envoyé</p>
+                        </div>';
+                    }         
+                }
+                ?>
 
                 <div class="img">
                      <a href="https://www.linkedin.com/in/matisse-blasco-9975b7186/"><img src="medias/logo-linkedin.png" alt="Logo Linkedin"></a>

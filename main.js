@@ -10,3 +10,8 @@ close.addEventListener('click', function() {
     menu.classList.remove('showMenu');
 });
 
+const modal = document.getElementById('modal');
+
+modal.addEventListener('click', function() {
+    modal.parentNode.removeChild(modal);
+})

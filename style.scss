@@ -50,6 +50,16 @@ html{
     display: none;
   }
 
+  #modal{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    top: 0;
+    color: white;
+  }
+
   .navbar{
     margin-top: 15px;
 
