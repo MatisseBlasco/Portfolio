@@ -26,11 +26,11 @@
                 &times;
             </div></button>
             <ul id="home" class="navbar">
-                <li class="navbar__list"><a class="navbar__list-link" href="#form">Contact</a></li>
-                <li class="navbar__list"><a class="navbar__list-link" href="#my-project">Projets</a></li>
-                <li class="navbar__list"><a class="navbar__list-link" href="#skills">Compétences</a></li>
-                <li class="navbar__list"><a class="navbar__list-link" href="#about-me">Présentation</a></li>
                 <li class="navbar__list"><a class="navbar__list-link" href="#home">Accueil</a></li>
+                <li class="navbar__list"><a class="navbar__list-link" href="#about-me">Présentation</a></li>
+                <li class="navbar__list"><a class="navbar__list-link" href="#skills">Compétences</a></li>
+                <li class="navbar__list"><a class="navbar__list-link" href="#my-project">Projets</a></li>
+                <li class="navbar__list"><a class="navbar__list-link" href="#form">Contact</a></li>
             </ul>
         </nav>
 
