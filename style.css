@@ -159,6 +159,7 @@ html {
     position: fixed;
     right: 20px;
     bottom: 20px;
+    z-index: 999;
     cursor: pointer;
   }
   .icon {
@@ -494,6 +495,7 @@ html {
     position: fixed;
     right: 20px;
     bottom: 20px;
+    z-index: 999;
     cursor: pointer;
   }
   .icon {
@@ -823,6 +825,7 @@ html {
     position: fixed;
     right: 5px;
     bottom: 5px;
+    z-index: 999;
     cursor: pointer;
   }
   .icon {
@@ -1152,6 +1155,7 @@ html {
     position: fixed;
     right: 5px;
     bottom: 5px;
+    z-index: 999;
     cursor: pointer;
   }
   .icon {
