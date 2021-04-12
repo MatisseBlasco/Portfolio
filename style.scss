@@ -156,6 +156,18 @@ html {
     letter-spacing: 1px;
   }
 
+  .btn {
+    width: 100px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+  }
+
+  .icon {
+    width: 75px;
+  }
+
   .logo > img {
     padding: 1rem;
     width: 75px;
@@ -168,6 +180,15 @@ html {
 
   #hamburger {
     display: none;
+  }
+
+  #scroll-top{
+    position: fixed;
+    z-index: 2;
+  }
+
+  #scroll-top > a > img{
+    width: 200px;
   }
 
   .navbar {
@@ -456,6 +477,18 @@ html {
     padding: 3%;
     text-align: center;
     letter-spacing: 1px;
+  }
+
+  .btn {
+    width: 100px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+  }
+
+  .icon {
+    width: 75px;
   }
 
   .logo > img {
@@ -761,6 +794,18 @@ html {
     letter-spacing: 1px;
   }
 
+  .btn {
+    width: 100px;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    cursor: pointer;
+  }
+
+  .icon {
+    width: 75px;
+  }
+
   .logo > img {
     padding: 1rem;
     width: 50px;
@@ -1064,6 +1109,18 @@ html {
     letter-spacing: 1px;
   }
 
+  .btn {
+    width: 100px;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    cursor: pointer;
+  }
+
+  .icon {
+    width: 75px;
+  }
+
   .logo {
     display: flex;
     justify-content: center;
@@ -1189,7 +1246,7 @@ html {
     }
 
     &__div > img {
-      height: 80px;
+      height: 100px;
       padding: 20px;
       transform: scale(1);
       transition: 0.3s ease-in-out;
@@ -1364,7 +1421,6 @@ html {
     background: aliceblue;
     text-align: center;
     font-size: 3em;
-    font-family: "Lato";
   }
 
   .overlay {
@@ -1426,6 +1482,19 @@ html {
     padding: 3%;
     text-align: center;
     letter-spacing: 1px;
+  }
+
+  .btn {
+    width: 100px;
+    position: fixed;
+    bottom: 2px;
+    right: 0px;
+    z-index: 999;
+    cursor: pointer;
+  }
+
+  .icon {
+    width: 50px;
   }
 
   .logo {

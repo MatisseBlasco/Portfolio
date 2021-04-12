@@ -8,9 +8,6 @@
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
-<?php
-
-?>
 
 <body>
     <header>
@@ -32,7 +29,7 @@
             <div class="overlay-content">
 
                 <ul id="home" class="navbar">
-                    <li class="navbar__list"><a class="navbar__list-link" href="#home">Accueil</a></li>
+                    <li class="navbar__list"><a class="navbar__list-link" href="#">Accueil</a></li>
                     <li class="navbar__list"><a class="navbar__list-link" href="#about-me">Présentation</a></li>
                     <li class="navbar__list"><a class="navbar__list-link" href="#skills">Compétences</a></li>
                     <li class="navbar__list"><a class="navbar__list-link" href="#my-project">Projets</a></li>
@@ -51,6 +48,10 @@
     </header>
 
     <main>
+
+    <div class="btn">
+        <img src="medias/scroll-top.png" class="icon">
+    </div>
 
         <section class="section-home">
 
@@ -107,7 +108,7 @@
         </section>
 
         
-        <h3 id="form" class="section-form__title">contact</h3>
+        <h3 class="section-form__title">contact</h3>
         
         <section class="section-form">
 
@@ -119,7 +120,7 @@
                         <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Nom" id="name" autocomplete="off" />
                     </div>
 
-                    <div>
+                    <div id="form">
                         <input name="email" type="email" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" autocomplete="off" />
                     </div>
 
