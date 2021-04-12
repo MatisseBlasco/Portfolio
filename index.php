@@ -22,10 +22,8 @@
         </div>
 
         <nav id="menu">
-            <button id="close"><div>
-                &times;
-            </div></button>
             <ul id="home" class="navbar">
+                <span id="close">&times;</span>
                 <li class="navbar__list"><a class="navbar__list-link" href="#home">Accueil</a></li>
                 <li class="navbar__list"><a class="navbar__list-link" href="#about-me">Présentation</a></li>
                 <li class="navbar__list"><a class="navbar__list-link" href="#skills">Compétences</a></li>

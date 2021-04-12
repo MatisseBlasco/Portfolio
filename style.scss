@@ -4,20 +4,66 @@
 // font-family: 'Dancing Script', cursive;
 $blue: #2ba9e0;
 
-*{
-    margin: 0;
-    padding: 0;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 html{
   scroll-behavior: smooth;
 }
 
+
+
 @media screen and (min-width: 1400px){
      
     
     
-    /**************************HOME-PAGE*********************************************************************************************/
+    /************************************************************HOME-PAGE**************************************************************************/
     
     
 
@@ -423,7 +469,7 @@ html{
             flex-direction: column;
             align-items: center;
             justify-content: flex-end;
-            height: 85%;
+            height: 95%;
             width: 100%;
 
                 &-name{
@@ -462,7 +508,7 @@ html{
         &__div > div{
           display: flex;
           align-items: center;
-          height: 90vh;
+          height: 60vh;
         }
 
         &__div > div > img{
@@ -474,7 +520,7 @@ html{
         
         &__div > p{
             font-size: 1.2rem;
-            margin: 285px 150px;
+            margin: 150px 150px;
             text-align: justify;
         }
     }
@@ -1346,14 +1392,10 @@ float: none;
   position: absolute;
 }
 
-#menu > button{
-  background-color: black;
-  border: 0;
-  opacity: 0.9;
-}
-
 #close{
+  cursor: pointer;
   color: white;
+  font-size: 45px;
 }
 
 nav{
@@ -1369,6 +1411,7 @@ width: 100%;
 
 #menu.showMenu{
   display: block;
+  position: fixed;
 }
 
 .navbar{
@@ -1378,7 +1421,7 @@ margin-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #2baae17e;
+  background-color: #51bdebc4;
 
     &-link{
         color:white;
