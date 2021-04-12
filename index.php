@@ -17,7 +17,7 @@
         </div>
 
         <div class="logo">
-            <img src="medias/Logo projet portfolio.png" alt="Logo">
+            <img src="medias/logoprojetportfolio.png" alt="Logo">
         </div>
 
 
@@ -71,7 +71,7 @@
 
             <div class="section-about-me__div">
                 <div>
-                    <img src="medias/Logo projet portfolio.png" alt="logo">
+                    <img src="medias/logoprojetportfolio.png" alt="logo">
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis laboriosam dignissimos quo voluptate? Eius necessitatibus tempora architecto laboriosam. Illum, numquam! Dicta numquam porro obcaecati et iure vitae modi doloribus laboriosam sint ea veniam, voluptates optio maiores pariatur saepe eos totam deserunt inventore distinctio. Mollitia reiciendis voluptate, commodi sint sit incidunt possimus unde eum, minus maiores est numquam eius, iure doloribus!</p>
             </div>
@@ -102,7 +102,7 @@
             <h3>mes projets</h3>
 
             <div class="section-my-project__list">
-                <img class="section-my-project__list-img" src="medias/Maquette utilisateur.jpg" alt="Maquette site de réservation gite">
+                <img class="section-my-project__list-img" src="medias/maquetteutilisateur.jpg" alt="Maquette site de réservation gite">
             </div>
 
         </section>
