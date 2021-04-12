@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,27 +11,42 @@
 <?php
 
 ?>
+
 <body>
     <header>
-        
+
         <div id="hamburger">
             <img src="medias/menu-hamburger.png" alt="menu-hamburger">
         </div>
-        
+
         <div class="logo">
             <img src="medias/Logo projet portfolio.png" alt="Logo">
         </div>
 
-        <nav id="menu">
-            <ul id="home" class="navbar">
-                <span id="close">&times;</span>
-                <li class="navbar__list"><a class="navbar__list-link" href="#home">Accueil</a></li>
-                <li class="navbar__list"><a class="navbar__list-link" href="#about-me">Présentation</a></li>
-                <li class="navbar__list"><a class="navbar__list-link" href="#skills">Compétences</a></li>
-                <li class="navbar__list"><a class="navbar__list-link" href="#my-project">Projets</a></li>
-                <li class="navbar__list"><a class="navbar__list-link" href="#form">Contact</a></li>
-            </ul>
-        </nav>
+
+        <div id="myNav" class="overlay">
+
+
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <div class="overlay-content">
+
+                <ul id="home" class="navbar">
+                    <li class="navbar__list"><a class="navbar__list-link" href="#home">Accueil</a></li>
+                    <li class="navbar__list"><a class="navbar__list-link" href="#about-me">Présentation</a></li>
+                    <li class="navbar__list"><a class="navbar__list-link" href="#skills">Compétences</a></li>
+                    <li class="navbar__list"><a class="navbar__list-link" href="#my-project">Projets</a></li>
+                    <li class="navbar__list"><a class="navbar__list-link" href="#form">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div onclick="openNav()" id="hamburger">
+            <img src="medias/menu-hamburger.png" alt="menu-hamburger">
+        </div>
+
+
 
     </header>
 
@@ -47,11 +63,11 @@
 
         </section>
 
-        
+
         <section id="about-me" class="section-about-me">
 
             <h3>à propos de moi</h3>
-            
+
             <div class="section-about-me__div">
                 <div>
                     <img src="medias/Logo projet portfolio.png" alt="logo">
@@ -65,6 +81,7 @@
         <section id="skills" class="section-my-skill">
 
             <h3>mes compétences</h3>
+
             <div class="section-my-skill__div">
                 <img src="medias/logohtml.svg" alt="Logo HTML5">
                 <img src="medias/logocss.svg" alt="Logo CSS3">
@@ -81,73 +98,77 @@
 
 
         <section id="my-project" class="section-my-project">
-            
+
             <h3>mes projets</h3>
+
             <div class="section-my-project__list">
                 <img class="section-my-project__list-img" src="medias/Maquette utilisateur.jpg" alt="Maquette site de réservation gite">
             </div>
 
         </section>
 
-        <h3 id="form">contact</h3>
-
+        
+        <h3 id="form" class="section-form__title">contact</h3>
+        
         <section class="section-form">
 
             <div class="section-form__div">
-                <form method="POST" class="section-form__div-form">
-                
-                <div>
-                  <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Nom" id="name" autocomplete="off" />
-                </div>
-                
-                <div>
-                  <input name="email" type="email" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" autocomplete="off" />
-                </div>
-                
-                <div class="text">
-                  <textarea name="message" class="validate[required,length[6,300]] feedback-input" id="message" placeholder="Message" autocomplete="off"></textarea>
-                </div>
-                    
-                <div class="submit">
-                  <input name="submit" type="submit" value="ENVOYER" id="button-blue"/>
-                  <div class="ease"></div>
-                </div>
 
-                <?php
-                if(isset($_POST['submit']) && !empty($_POST['message'])) {
-                                        
-                    $dest = "matisseblascotest@gmail.com";
-                    $mail = $_POST['email'];
-                    $subject = 'Portfolio';
-                    $name = $_POST['name'];
-                    $message = $_POST['message'];
-                    $header = "From: $mail";
-                                                    
-                    $mail = mail($dest, $subject, $message, $header);
-                    if($mail){
-                        echo '<div id="modal">
+                <form method="POST" class="section-form__div-form">
+
+                    <div>
+                        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Nom" id="name" autocomplete="off" />
+                    </div>
+
+                    <div>
+                        <input name="email" type="email" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" autocomplete="off" />
+                    </div>
+
+                    <div class="text">
+                        <textarea name="message" class="validate[required,length[6,300]] feedback-input" id="message" placeholder="Message" autocomplete="off"></textarea>
+                    </div>
+
+                    <div class="submit">
+                        <input name="submit" type="submit" value="ENVOYER" id="button-blue" />
+                        <div class="ease"></div>
+                    </div>
+
+                    <?php
+                    if (isset($_POST['submit']) && !empty($_POST['message'])) {
+
+                        $dest = "matisseblascotest@gmail.com";
+                        $mail = $_POST['email'];
+                        $subject = 'Portfolio';
+                        $name = $_POST['name'];
+                        $message = $_POST['message'];
+                        $header = "From: $mail";
+
+                        $mail = mail($dest, $subject, $message, $header);
+                        if ($mail) {
+                            echo '<div id="modal">
                         <p>Votre email à bien été envoyé <br>Cliquez pour fermer</p>
                         </div>';
-                    }         
-                }
-                ?>
+                        }
+                    }
+                    ?>
 
-                <div class="img">
-                     <a href="https://www.linkedin.com/in/matisse-blasco-9975b7186/"><img src="medias/logo-linkedin.png" alt="Logo Linkedin"></a>
-                    <a href="https://github.com/MatisseBlasco"><img src="medias/logo-github.svg" alt="Logo Github"></a>
-                </div>
+                    <div class="img">
+                        <a href="https://www.linkedin.com/in/matisse-blasco-9975b7186/"><img src="medias/logo-linkedin.png" alt="Logo Linkedin"></a>
+                        <a href="https://github.com/MatisseBlasco"><img src="medias/logo-github.svg" alt="Logo Github"></a>
+                    </div>
 
-              </form>
+                </form>
             </div>
 
         </section>
 
     </main>
-        
+
     <div>
         <footer>&copy;Copyright 2021 Matisse Blasco - Tous droits réservés.</footer>
     </div>
 
-    <script src="main.js"></script> 
+    <script src="main.js"></script>
 </body>
+
 </html>

@@ -4,19 +4,87 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -26,8 +94,17 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -35,17 +112,21 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
   content: none;
 }
 
@@ -62,14 +143,14 @@ html {
   /************************************************************HOME-PAGE**************************************************************************/
   body {
     background-color: black;
-    font-family: 'Acme', sans-serif;
+    font-family: "Acme", sans-serif;
   }
   h3 {
     text-transform: uppercase;
     color: #2ba9e0;
     text-align: center;
     font-size: 2.2rem;
-    padding: 3%;
+    padding: 40px;
     text-align: center;
     letter-spacing: 1px;
   }
@@ -78,10 +159,10 @@ html {
     width: 75px;
     float: left;
   }
-  #hamburger {
+  .overlay .closebtn {
     display: none;
   }
-  #close {
+  #hamburger {
     display: none;
   }
   #modal {
@@ -177,7 +258,7 @@ html {
   .section-about-me__div > div > img {
     margin-top: 3%;
     margin-left: 5%;
-    width: 500px;
+    width: 400px;
     height: auto;
   }
   .section-about-me__div > p {
@@ -212,8 +293,8 @@ html {
     padding: 40px;
     -webkit-transform: scale(1);
             transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
   .section-my-skill__div > img:hover {
     cursor: pointer;
@@ -240,8 +321,8 @@ html {
     height: 500px;
     -webkit-transform: scale(1);
             transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
   .section-my-project__list > img:hover {
     cursor: pointer;
@@ -320,8 +401,10 @@ html {
     line-height: 150%;
     resize: vertical;
   }
-  input:hover, textarea:hover,
-  input:focus, textarea:focus {
+  input:hover,
+  textarea:hover,
+  input:focus,
+  textarea:focus {
     background-color: #383838;
   }
   #button-blue {
@@ -350,8 +433,8 @@ html {
     width: 0px;
     height: 74px;
     background-color: white;
-    -webkit-transition: .3s ease;
-    transition: .3s ease;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
   }
   .submit:hover .ease {
     width: 100%;
@@ -399,7 +482,7 @@ html {
   }
   body {
     background-color: black;
-    font-family: 'Acme', sans-serif;
+    font-family: "Acme", sans-serif;
   }
   h3 {
     text-transform: uppercase;
@@ -415,10 +498,10 @@ html {
     width: 75px;
     position: absolute;
   }
-  #hamburger {
+  .overlay .closebtn {
     display: none;
   }
-  #close {
+  #hamburger {
     display: none;
   }
   .navbar {
@@ -535,8 +618,8 @@ html {
     padding: 40px;
     -webkit-transform: scale(1);
             transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
   .section-my-skill__div > img:hover {
     cursor: pointer;
@@ -563,8 +646,8 @@ html {
     height: 400px;
     -webkit-transform: scale(1);
             transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
   .section-my-project__list > img:hover {
     cursor: pointer;
@@ -577,7 +660,7 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -643,8 +726,10 @@ html {
     line-height: 150%;
     resize: vertical;
   }
-  input:hover, textarea:hover,
-  input:focus, textarea:focus {
+  input:hover,
+  textarea:hover,
+  input:focus,
+  textarea:focus {
     background-color: #383838;
   }
   #button-blue {
@@ -673,8 +758,8 @@ html {
     width: 0px;
     height: 74px;
     background-color: white;
-    -webkit-transition: .3s ease;
-    transition: .3s ease;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
   }
   .submit:hover .ease {
     width: 100%;
@@ -702,7 +787,7 @@ html {
   }
   body {
     background-color: black;
-    font-family: 'Acme', sans-serif;
+    font-family: "Acme", sans-serif;
   }
   h3 {
     text-transform: uppercase;
@@ -721,7 +806,7 @@ html {
   #hamburger {
     display: none;
   }
-  #close {
+  .overlay .closebtn {
     display: none;
   }
   .navbar {
@@ -838,8 +923,8 @@ html {
     padding: 40px;
     -webkit-transform: scale(1);
             transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
   .section-my-skill__div > img:hover {
     cursor: pointer;
@@ -866,8 +951,8 @@ html {
     height: 400px;
     -webkit-transform: scale(1);
             transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
   .section-my-project__list > img:hover {
     cursor: pointer;
@@ -946,8 +1031,10 @@ html {
     line-height: 150%;
     resize: vertical;
   }
-  input:hover, textarea:hover,
-  input:focus, textarea:focus {
+  input:hover,
+  textarea:hover,
+  input:focus,
+  textarea:focus {
     background-color: #383838;
   }
   #button-blue {
@@ -976,8 +1063,8 @@ html {
     width: 0px;
     height: 74px;
     background-color: white;
-    -webkit-transition: .3s ease;
-    transition: .3s ease;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
   }
   .submit:hover .ease {
     width: 100%;
@@ -1005,7 +1092,7 @@ html {
   }
   body {
     background-color: black;
-    font-family: 'Acme', sans-serif;
+    font-family: "Acme", sans-serif;
   }
   h3 {
     text-transform: uppercase;
@@ -1032,10 +1119,18 @@ html {
   #hamburger {
     display: none;
   }
-  #close {
+  .overlay .closebtn {
     display: none;
   }
   nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .overlay-content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1147,8 +1242,8 @@ html {
     padding: 20px;
     -webkit-transform: scale(1);
             transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
   .section-my-skill__div > img:hover {
     cursor: pointer;
@@ -1175,8 +1270,8 @@ html {
     height: 400px;
     -webkit-transform: scale(1);
             transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
   .section-my-project__list > img:hover {
     cursor: pointer;
@@ -1255,8 +1350,10 @@ html {
     line-height: 150%;
     resize: vertical;
   }
-  input:hover, textarea:hover,
-  input:focus, textarea:focus {
+  input:hover,
+  textarea:hover,
+  input:focus,
+  textarea:focus {
     background-color: #383838;
   }
   #button-blue {
@@ -1285,8 +1382,8 @@ html {
     width: 0px;
     height: 74px;
     background-color: white;
-    -webkit-transition: .3s ease;
-    transition: .3s ease;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
   }
   .submit:hover .ease {
     width: 100%;
@@ -1309,12 +1406,61 @@ html {
 
 @media screen and (min-width: 350px) and (max-width: 499px) {
   /**************************HOME-PAGE*********************************************************************************************/
+  span {
+    display: block;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    background: aliceblue;
+    text-align: center;
+    font-size: 3em;
+    font-family: "Lato";
+  }
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .overlay-content {
+    position: relative;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+  }
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #b4b4b4;
+    display: block;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .overlay a:hover,
+  .overlay a:focus {
+    color: white;
+  }
+  .overlay .closebtn {
+    display: block;
+    position: absolute;
+    color: #b4b4b4;
+    top: 10px;
+    right: 20px;
+    font-size: 60px;
+  }
   html {
     scroll-behavior: smooth;
   }
   body {
     background-color: black;
-    font-family: 'Acme', sans-serif;
+    font-family: "Acme", sans-serif;
   }
   h3 {
     text-transform: uppercase;
@@ -1341,13 +1487,8 @@ html {
   #hamburger > img {
     width: 40px;
     top: 40px;
-    right: 25px;
+    left: 25px;
     position: absolute;
-  }
-  #close {
-    cursor: pointer;
-    color: white;
-    font-size: 45px;
   }
   nav {
     display: -webkit-box;
@@ -1365,33 +1506,6 @@ html {
   #menu.showMenu {
     display: block;
     position: fixed;
-  }
-  .navbar {
-    margin-top: 10px;
-  }
-  .navbar__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    background-color: #51bdebc4;
-  }
-  .navbar__list-link {
-    color: white;
-    text-decoration: none;
-    padding: 0.2rem;
-    font-size: 1.2rem;
-    letter-spacing: 1px;
-    border-bottom: 1px solid white;
-  }
-  .navbar__list-link:hover {
-    color: #2ba9e0;
   }
   .div-background-host {
     max-width: 100%;
@@ -1472,15 +1586,14 @@ html {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    height: 90vh;
   }
   .section-my-skill__div > img {
     height: 80px;
     padding: 20px;
     -webkit-transform: scale(1);
             transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
   .section-my-skill__div > img:hover {
     cursor: pointer;
@@ -1506,8 +1619,8 @@ html {
     height: 400px;
     -webkit-transform: scale(1);
             transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
   }
   .section-my-project__list > img:hover {
     cursor: pointer;
@@ -1585,8 +1698,10 @@ html {
     line-height: 150%;
     resize: vertical;
   }
-  input:hover, textarea:hover,
-  input:focus, textarea:focus {
+  input:hover,
+  textarea:hover,
+  input:focus,
+  textarea:focus {
     background-color: #383838;
   }
   #button-blue {
@@ -1615,8 +1730,8 @@ html {
     width: 0px;
     height: 74px;
     background-color: white;
-    -webkit-transition: .3s ease;
-    transition: .3s ease;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
   }
   .submit:hover .ease {
     width: 100%;
