@@ -6,8 +6,8 @@ function closeNav() {
     document.getElementById("myNav").style.width = "0%";
 }
 
-const modal = document.getElementById('modal');
+// const modal = document.getElementById('modal');
 
-modal.addEventListener('click', function() {
-    modal.parentNode.removeChild(modal);
-})
+// modal.addEventListener('click', function() {
+//     modal.parentNode.removeChild(modal);
+// })

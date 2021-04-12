@@ -170,16 +170,6 @@ html {
     display: none;
   }
 
-  #modal {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    top: 0;
-    color: white;
-  }
-
   .navbar {
     margin-top: 15px;
     position: absolute;
@@ -426,18 +416,12 @@ html {
   }
 
   #modal {
-    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
     color: white;
-    position: fixed;
-    font-size: 3rem;
+    margin-top: 75px;
+    font-size: 2rem;
   }
 
   .img {
@@ -734,6 +718,15 @@ html {
     background-color: white;
   }
 
+  #modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 65px;
+    font-size: 1.9rem;
+  }
+
   .img {
     display: flex;
     float: right;
@@ -1028,6 +1021,15 @@ html {
     background-color: white;
   }
 
+  #modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 65px;
+    font-size: 1.8rem;
+  }
+
   .img {
     display: flex;
     float: right;
@@ -1242,7 +1244,7 @@ html {
       padding-right: 50px;
       padding-top: 50px;
       padding-bottom: 50px;
-      width: 300px;
+      width: 375px;
       height: 375px;
     }
   }
@@ -1330,6 +1332,15 @@ html {
     background-color: white;
   }
 
+  #modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 65px;
+    font-size: 1.7rem;
+  }
+
   .img {
     display: flex;
     float: right;
@@ -1342,7 +1353,7 @@ html {
   }
 }
 
-@media screen and (min-width: 350px) and (max-width: 499px) {
+@media screen and (min-width: 320px) and (max-width: 499px) {
   /**************************HOME-PAGE*********************************************************************************************/
 
   span {
@@ -1363,7 +1374,7 @@ html {
     z-index: 1;
     left: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.952);
     overflow-x: hidden;
     transition: 0.5s;
   }
@@ -1577,6 +1588,8 @@ html {
       padding-right: 50px;
       padding-top: 50px;
       padding-bottom: 50px;
+      margin-bottom: 60px;
+      margin-top: 60px;
       width: 300px;
       height: 375px;
     }
@@ -1663,6 +1676,15 @@ html {
   .submit:hover .ease {
     width: 100%;
     background-color: white;
+  }
+
+  #modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 65px;
+    font-size: 1.4rem;
   }
 
   .img {

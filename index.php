@@ -91,7 +91,6 @@
                 <img src="medias/logoillustrator.svg" alt="Logo Adobe Illustrator">
                 <img src="medias/logo-github.svg" alt="Logo Github">
                 <img src="medias/logosass.svg" alt="Logo SASS">
-                <img src="medias/logosymfony.svg" alt="Logo Symfony">
             </div>
 
         </section>
@@ -114,7 +113,7 @@
 
             <div class="section-form__div">
 
-                <form method="POST" class="section-form__div-form">
+                <form  action="#form" method="POST" class="section-form__div-form">
 
                     <div>
                         <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Nom" id="name" autocomplete="off" />
@@ -133,6 +132,11 @@
                         <div class="ease"></div>
                     </div>
 
+                    <div class="img">
+                        <a href="https://www.linkedin.com/in/matisse-blasco-9975b7186/"><img src="medias/logo-linkedin.png" alt="Logo Linkedin"></a>
+                        <a href="https://github.com/MatisseBlasco"><img src="medias/logo-github.svg" alt="Logo Github"></a>
+                    </div>
+
                     <?php
                     if (isset($_POST['submit']) && !empty($_POST['message'])) {
 
@@ -146,16 +150,11 @@
                         $mail = mail($dest, $subject, $message, $header);
                         if ($mail) {
                             echo '<div id="modal">
-                        <p>Votre email à bien été envoyé <br>Cliquez pour fermer</p>
+                        <p>Votre email à bien été envoyé.</p>
                         </div>';
                         }
                     }
                     ?>
-
-                    <div class="img">
-                        <a href="https://www.linkedin.com/in/matisse-blasco-9975b7186/"><img src="medias/logo-linkedin.png" alt="Logo Linkedin"></a>
-                        <a href="https://github.com/MatisseBlasco"><img src="medias/logo-github.svg" alt="Logo Github"></a>
-                    </div>
 
                 </form>
             </div>
