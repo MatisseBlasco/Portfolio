@@ -165,22 +165,23 @@ footer {
   justify-content: center;
   align-items: center;
   letter-spacing: 1px;
+  text-align: center;
 }
 
 @media screen and (min-width: 1400px) {
   /************************************************************HOME-PAGE**************************************************************************/
 
   .btn {
-    width: 100px;
+    width: 50px;
     position: fixed;
     right: 20px;
-    bottom: 20px;
+    bottom: 45px;
     z-index: 999;
     cursor: pointer;
   }
 
   .icon {
-    width: 75px;
+    width: 50px;
   }
 
   .logo > a > img {
@@ -233,7 +234,7 @@ footer {
   .div-background-host {
     max-width: 100%;
     height: 100vh;
-    background-image: url("medias/fond-menu.jpg");
+    background-image: url("medias/fond-menu.webp");
     background-size: cover;
 
     &__text {
@@ -297,7 +298,7 @@ footer {
   .section-my-skill {
     height: 100vh;
     width: 100%;
-    background-image: url("medias/fond-competences.jpg");
+    background-image: url("medias/fond-competences.webp");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -350,7 +351,7 @@ footer {
   /****************************FORM************************************************************************************************/
 
   .section-form {
-    background-image: url("medias/fond-formulaire.jpg");
+    background-image: url("medias/fond-formulaire.webp");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -477,32 +478,17 @@ footer {
 @media screen and (min-width: 850px) and (max-width: 1399px) {
   /**************************HOME-PAGE*********************************************************************************************/
 
-  body {
-    background-color: black;
-    font-family: "Acme", sans-serif;
-  }
-
-  h3 {
-    text-transform: uppercase;
-    color: $blue;
-    text-align: center;
-    font-size: 2.2rem;
-    padding: 3%;
-    text-align: center;
-    letter-spacing: 1px;
-  }
-
   .btn {
-    width: 100px;
+    width: 50px;
     position: fixed;
     right: 20px;
-    bottom: 20px;
+    bottom: 45px;
     z-index: 999;
     cursor: pointer;
   }
 
   .icon {
-    width: 75px;
+    width: 50px;
   }
 
   .logo > a > img {
@@ -545,7 +531,7 @@ footer {
   .div-background-host {
     max-width: 100%;
     height: 100vh;
-    background-image: url("medias/fond-menu.jpg");
+    background-image: url("medias/fond-menu.webp");
     background-size: cover;
 
     &__text {
@@ -609,7 +595,7 @@ footer {
   .section-my-skill {
     height: 100vh;
     width: 100%;
-    background-image: url("medias/fond-competences.jpg");
+    background-image: url("medias/fond-competences.webp");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -662,11 +648,11 @@ footer {
   /****************************FORM************************************************************************************************/
 
   .section-form {
-    background-image: url("medias/fond-formulaire.jpg");
+    background-image: url("medias/fond-formulaire.webp");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -770,8 +756,8 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
-    margin-top: 65px;
-    font-size: 1.9rem;
+    margin-top: 75px;
+    font-size: 2rem;
   }
 
   .img {
@@ -789,32 +775,17 @@ footer {
 @media screen and (min-width: 700px) and (max-width: 849px) {
   /**************************HOME-PAGE*********************************************************************************************/
 
-  body {
-    background-color: black;
-    font-family: "Acme", sans-serif;
-  }
-
-  h3 {
-    text-transform: uppercase;
-    color: $blue;
-    text-align: center;
-    font-size: 2.2rem;
-    padding: 3%;
-    text-align: center;
-    letter-spacing: 1px;
-  }
-
   .btn {
-    width: 100px;
+    width: 50px;
     position: fixed;
-    right: 5px;
-    bottom: 5px;
+    right: 20px;
+    bottom: 45px;
     z-index: 999;
     cursor: pointer;
   }
 
   .icon {
-    width: 75px;
+    width: 50px;
   }
 
   .logo > a > img {
@@ -857,7 +828,7 @@ footer {
   .div-background-host {
     max-width: 100%;
     height: 100vh;
-    background-image: url("medias/fond-menu.jpg");
+    background-image: url("medias/fond-menu.webp");
     background-size: cover;
 
     &__text {
@@ -921,7 +892,7 @@ footer {
   .section-my-skill {
     height: 100vh;
     width: 100%;
-    background-image: url("medias/fond-competences.jpg");
+    background-image: url("medias/fond-competences.webp");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -974,7 +945,7 @@ footer {
   /****************************FORM************************************************************************************************/
 
   .section-form {
-    background-image: url("medias/fond-formulaire.jpg");
+    background-image: url("medias/fond-formulaire.webp");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -1098,7 +1069,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 280px) and (max-width: 699px) {
+@media screen and (min-width: 430px) and (max-width: 699px) {
   /**************************HOME-PAGE*********************************************************************************************/
 
   span {
@@ -1153,32 +1124,17 @@ footer {
     font-size: 60px;
   }
 
-  body {
-    background-color: black;
-    font-family: "Acme", sans-serif;
-  }
-
-  h3 {
-    text-transform: uppercase;
-    color: $blue;
-    text-align: center;
-    font-size: 2.2rem;
-    padding: 3%;
-    text-align: center;
-    letter-spacing: 1px;
-  }
-
   .btn {
-    width: 100px;
+    width: 35px;
     position: fixed;
-    bottom: 2px;
-    right: 0px;
+    right: 20px;
+    bottom: 45px;
     z-index: 999;
     cursor: pointer;
   }
 
   .icon {
-    width: 50px;
+    width: 35px;
   }
 
   .logo > a > img {
@@ -1213,7 +1169,7 @@ footer {
 
   .div-background-host {
     max-width: 100%;
-    background: url("medias/fond-menu.jpg") center center no-repeat;
+    background: url("medias/fond-menu.webp") center center no-repeat;
     height: 250px;
     background-size: cover;
 
@@ -1270,7 +1226,7 @@ footer {
 
   .section-my-skill {
     width: 100%;
-    background-image: url("medias/fond-competences.jpg");
+    background-image: url("medias/fond-competences.webp");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -1321,7 +1277,7 @@ footer {
   /****************************FORM************************************************************************************************/
 
   .section-form {
-    background-image: url("medias/fond-formulaire.jpg");
+    background-image: url("medias/fond-formulaire.webp");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -1335,8 +1291,7 @@ footer {
       padding-right: 50px;
       padding-top: 50px;
       padding-bottom: 50px;
-      margin-bottom: 60px;
-      margin-top: 60px;
+      margin-bottom: 50px;
       width: 300px;
       height: 375px;
     }
@@ -1432,6 +1387,339 @@ footer {
     color: white;
     margin-top: 65px;
     font-size: 1.4rem;
+  }
+
+  .img {
+    display: flex;
+    float: right;
+    justify-content: center;
+  }
+
+  .img > a > img {
+    width: 40px;
+    padding: 10px 5px;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 429px) {
+  /**************************HOME-PAGE*********************************************************************************************/
+
+  span {
+    display: block;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    background: aliceblue;
+    text-align: center;
+    font-size: 3em;
+  }
+
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .overlay-content {
+    position: relative;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: rgb(180, 180, 180);
+    display: block;
+    transition: 0.3s;
+  }
+
+  .overlay a:hover,
+  .overlay a:focus {
+    color: white;
+  }
+
+  .overlay .closebtn {
+    display: block;
+    position: absolute;
+    color: rgb(180, 180, 180);
+    top: 10px;
+    left: 20px;
+    font-size: 60px;
+  }
+
+  .btn {
+    width: 35px;
+    position: fixed;
+    right: 20px;
+    bottom: 45px;
+    z-index: 999;
+    cursor: pointer;
+  }
+
+  .icon {
+    width: 35px;
+  }
+
+  .logo > a > img {
+    position: absolute;
+    left: 20px;
+    width: 50px;
+    top: 20px;
+  }
+
+  #hamburger > img {
+    width: 40px;
+    top: 20px;
+    right: 20px;
+    position: absolute;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  #menu.showMenu {
+    display: block;
+    position: fixed;
+  }
+
+  .div-background-host {
+    max-width: 100%;
+    background: url("medias/fond-menu.webp") center center no-repeat;
+    height: 250px;
+    background-size: cover;
+
+    &__text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      height: 95%;
+      width: 100%;
+
+      &-name {
+        color: white;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+      }
+
+      &-job {
+        color: $blue;
+        font-style: italic;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  /***************************ABOUT-ME*********************************************************************************************/
+
+  .section-about-me {
+    width: 100%;
+
+    &__div {
+      color: white;
+    }
+
+    &__div > div {
+      display: flex;
+      justify-content: center;
+    }
+
+    &__div > div > img {
+      padding: 20px;
+      width: 75px;
+    }
+
+    &__div > p {
+      font-size: 0.9rem;
+      margin: 25px 50px;
+      text-align: justify;
+    }
+  }
+
+  /*************************MY-SKILL***********************************************************************************************/
+
+  .section-my-skill {
+    width: 100%;
+    background-image: url("medias/fond-competences.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__div {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &__div > img {
+      height: 80px;
+      padding: 20px;
+      transform: scale(1);
+      transition: 0.3s ease-in-out;
+    }
+
+    &__div > img:hover {
+      cursor: pointer;
+      transform: scale(1.2);
+    }
+  }
+
+  /***************************PROJET***********************************************************************************************/
+
+  .section-my-project {
+    width: 100%;
+
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 15px;
+      justify-content: space-evenly;
+    }
+
+    &__list > img {
+      height: 400px;
+      transform: scale(1);
+      transition: 0.3s ease-in-out;
+    }
+
+    &__list > img:hover {
+      cursor: pointer;
+      transform: scale(1.2);
+    }
+  }
+
+  /****************************FORM************************************************************************************************/
+
+  .section-form {
+    background-image: url("medias/fond-formulaire.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__div {
+      background-color: rgba(143, 143, 143, 0.425);
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      margin-bottom: 50px;
+      width: auto;
+      height: 375px;
+    }
+  }
+
+  .feedback-input {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 0;
+    line-height: 22px;
+    background-color: #252525;
+    padding: 13px 13px 13px 54px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 3px solid rgba(0, 0, 0, 0);
+  }
+
+  .feedback-input:focus {
+    background: #383838;
+    box-shadow: 0;
+    border: 2px solid $blue;
+    color: white;
+    outline: none;
+    padding: 13px 13px 13px 54px;
+  }
+
+  ::placeholder {
+    color: white;
+  }
+
+  .focused {
+    color: white;
+    border: $blue solid 3px;
+  }
+
+  textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+  }
+
+  input:hover,
+  textarea:hover,
+  input:focus,
+  textarea:focus {
+    background-color: #383838;
+  }
+
+  #button-blue {
+    float: left;
+    width: 100%;
+    border: white solid 2px;
+    cursor: pointer;
+    background-color: $blue;
+    color: white;
+    font-size: 24px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+  }
+
+  #button-blue:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: $blue;
+  }
+
+  .submit:hover {
+    color: $blue;
+  }
+
+  .ease {
+    width: 0px;
+    height: 74px;
+    background-color: white;
+    transition: 0.3s ease;
+  }
+
+  .submit:hover .ease {
+    width: 100%;
+    background-color: white;
+  }
+
+  #modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 65px;
+    font-size: 1.4rem;
+    text-align: center;
   }
 
   .img {
