@@ -152,11 +152,7 @@ h3 {
   text-align: center;
 }
 
-
-
 /*******************************FOOTER*****************************************************************************************************************/
-
-
 
 footer {
   background-color: black;
@@ -171,12 +167,8 @@ footer {
   letter-spacing: 1px;
 }
 
-
-
 @media screen and (min-width: 1400px) {
   /************************************************************HOME-PAGE**************************************************************************/
-
-
 
   .btn {
     width: 100px;
@@ -191,11 +183,12 @@ footer {
     width: 75px;
   }
 
-  .logo > img {
+  .logo > a > img {
     left: 25px;
     top: 25px;
     width: 100px;
     position: absolute;
+    cursor: pointer;
   }
 
   .overlay .closebtn {
@@ -206,12 +199,12 @@ footer {
     display: none;
   }
 
-  #scroll-top{
+  #scroll-top {
     position: fixed;
     z-index: 2;
   }
 
-  #scroll-top > a > img{
+  #scroll-top > a > img {
     width: 200px;
   }
 
@@ -278,15 +271,15 @@ footer {
     }
 
     &__div > div {
+      height: 80vh;
       display: flex;
-      justify-content: center;
       align-items: center;
+      justify-content: center;
     }
 
     &__div > div > img {
-      padding: 0px 20px;
       width: 300px;
-      height: auto;
+      padding: 50px;
     }
 
     &__div > p {
@@ -295,7 +288,7 @@ footer {
       align-items: center;
       font-size: 1.4rem;
       text-align: justify;
-      margin: 15% 150px;
+      margin: 0 150px;
     }
   }
 
@@ -484,8 +477,6 @@ footer {
 @media screen and (min-width: 850px) and (max-width: 1399px) {
   /**************************HOME-PAGE*********************************************************************************************/
 
-
-
   body {
     background-color: black;
     font-family: "Acme", sans-serif;
@@ -514,7 +505,7 @@ footer {
     width: 75px;
   }
 
-  .logo > img {
+  .logo > a > img {
     left: 25px;
     top: 25px;
     width: 100px;
@@ -589,26 +580,27 @@ footer {
     &__div {
       color: white;
       display: flex;
-      justify-content: space-around;
     }
 
     &__div > div {
+      height: 80vh;
       display: flex;
       align-items: center;
-      height: 60vh;
+      justify-content: center;
     }
 
     &__div > div > img {
-      margin-top: 3%;
-      margin-left: 15%;
-      width: 200px;
-      height: auto;
+      width: 250px;
+      padding: 40px;
     }
 
     &__div > p {
-      font-size: 1.2rem;
-      margin: 150px 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.3rem;
       text-align: justify;
+      margin: 0 50px;
     }
   }
 
@@ -797,8 +789,6 @@ footer {
 @media screen and (min-width: 700px) and (max-width: 849px) {
   /**************************HOME-PAGE*********************************************************************************************/
 
-
-
   body {
     background-color: black;
     font-family: "Acme", sans-serif;
@@ -827,7 +817,7 @@ footer {
     width: 75px;
   }
 
-  .logo > img {
+  .logo > a > img {
     left: 25px;
     top: 25px;
     width: 75px;
@@ -902,26 +892,27 @@ footer {
     &__div {
       color: white;
       display: flex;
-      justify-content: space-around;
     }
 
     &__div > div {
+      height: 80vh;
       display: flex;
       align-items: center;
-      height: 90vh;
+      justify-content: center;
     }
 
     &__div > div > img {
-      margin-top: 3%;
-      margin-left: 10%;
-      width: 200px;
-      height: auto;
+      width: 225px;
+      padding: 50px;
     }
 
     &__div > p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       font-size: 1.2rem;
-      margin: 280px 50px;
       text-align: justify;
+      margin: 0 50px;
     }
   }
 
@@ -1107,9 +1098,7 @@ footer {
   }
 }
 
-
-
-@media screen and (min-width: 320px) and (max-width: 699px) {
+@media screen and (min-width: 280px) and (max-width: 699px) {
   /**************************HOME-PAGE*********************************************************************************************/
 
   span {
@@ -1129,7 +1118,7 @@ footer {
     z-index: 1;
     right: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.850);
+    background-color: rgba(0, 0, 0, 0.85);
     overflow-x: hidden;
     transition: 0.5s;
   }
@@ -1192,7 +1181,7 @@ footer {
     width: 50px;
   }
 
-  .logo > img {
+  .logo > a > img {
     position: absolute;
     left: 20px;
     width: 50px;
@@ -1456,4 +1445,3 @@ footer {
     padding: 10px 5px;
   }
 }
-

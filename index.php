@@ -17,17 +17,13 @@
         </div>
 
         <div class="logo">
-            <img src="medias/logo-projet-portfolio.png" alt="Logo">
+            <a href="#"><img src="medias/logo-projet-portfolio.png" alt="Logo"></a>
         </div>
 
-
         <div id="myNav" class="overlay">
-
-
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
             <div class="overlay-content">
-
                 <ul id="home" class="navbar">
                     <li class="navbar__list"><a class="navbar__list-link" href="#">Accueil</a></li>
                     <li class="navbar__list"><a class="navbar__list-link" href="#about-me">Présentation</a></li>
@@ -36,7 +32,6 @@
                     <li class="navbar__list"><a class="navbar__list-link" href="#form">Contact</a></li>
                 </ul>
             </div>
-
         </div>
 
         <div onclick="openNav()" id="hamburger">
@@ -49,9 +44,9 @@
 
     <main>
 
-    <div class="btn">
-        <img src="medias/scroll-top.png" class="icon">
-    </div>
+        <div class="btn">
+            <img src="medias/scroll-top.png" class="icon">
+        </div>
 
         <section class="section-home">
 
@@ -71,7 +66,7 @@
 
             <div class="section-about-me__div">
                 <div>
-                    <img src="medias/logo-projet-portfolio.png" alt="logo">
+                    <img src="medias/logo-projet-portfolio." alt="logo">
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis laboriosam dignissimos quo voluptate? Eius necessitatibus tempora architecto laboriosam. Illum, numquam! Dicta numquam porro obcaecati et iure vitae modi doloribus laboriosam sint ea veniam, voluptates optio maiores pariatur saepe eos totam deserunt inventore distinctio. Mollitia reiciendis voluptate, commodi sint sit incidunt possimus unde eum, minus maiores est numquam eius, iure doloribus!</p>
             </div>
@@ -107,14 +102,13 @@
 
         </section>
 
-        
-        <h3 class="section-form__title">contact</h3>
-        
         <section class="section-form">
+            
+            <h3 class="section-form__title">contact</h3>
 
             <div class="section-form__div">
 
-                <form  action="#form" method="POST" class="section-form__div-form">
+                <form action="#form" method="POST" class="section-form__div-form">
 
                     <div>
                         <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Nom" id="name" autocomplete="off" />

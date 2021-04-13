@@ -186,11 +186,12 @@ footer {
   .icon {
     width: 75px;
   }
-  .logo > img {
+  .logo > a > img {
     left: 25px;
     top: 25px;
     width: 100px;
     position: absolute;
+    cursor: pointer;
   }
   .overlay .closebtn {
     display: none;
@@ -269,20 +270,20 @@ footer {
     display: flex;
   }
   .section-about-me__div > div {
+    height: 80vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .section-about-me__div > div > img {
-    padding: 0px 20px;
     width: 300px;
-    height: auto;
+    padding: 50px;
   }
   .section-about-me__div > p {
     display: -webkit-box;
@@ -296,7 +297,7 @@ footer {
             align-items: center;
     font-size: 1.4rem;
     text-align: justify;
-    margin: 15% 150px;
+    margin: 0 150px;
   }
   /*************************MY-SKILL***********************************************************************************************/
   .section-my-skill {
@@ -527,7 +528,7 @@ footer {
   .icon {
     width: 75px;
   }
-  .logo > img {
+  .logo > a > img {
     left: 25px;
     top: 25px;
     width: 100px;
@@ -601,28 +602,36 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
   }
   .section-about-me__div > div {
+    height: 80vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 60vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .section-about-me__div > div > img {
-    margin-top: 3%;
-    margin-left: 15%;
-    width: 200px;
-    height: auto;
+    width: 250px;
+    padding: 40px;
   }
   .section-about-me__div > p {
-    font-size: 1.2rem;
-    margin: 150px 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1.3rem;
     text-align: justify;
+    margin: 0 50px;
   }
   /*************************MY-SKILL***********************************************************************************************/
   .section-my-skill {
@@ -853,7 +862,7 @@ footer {
   .icon {
     width: 75px;
   }
-  .logo > img {
+  .logo > a > img {
     left: 25px;
     top: 25px;
     width: 75px;
@@ -927,28 +936,36 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
   }
   .section-about-me__div > div {
+    height: 80vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 90vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .section-about-me__div > div > img {
-    margin-top: 3%;
-    margin-left: 10%;
-    width: 200px;
-    height: auto;
+    width: 225px;
+    padding: 50px;
   }
   .section-about-me__div > p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: 1.2rem;
-    margin: 280px 50px;
     text-align: justify;
+    margin: 0 50px;
   }
   /*************************MY-SKILL***********************************************************************************************/
   .section-my-skill {
@@ -1153,7 +1170,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 699px) {
+@media screen and (min-width: 280px) and (max-width: 699px) {
   /**************************HOME-PAGE*********************************************************************************************/
   span {
     display: block;
@@ -1227,7 +1244,7 @@ footer {
   .icon {
     width: 50px;
   }
-  .logo > img {
+  .logo > a > img {
     position: absolute;
     left: 20px;
     width: 50px;
