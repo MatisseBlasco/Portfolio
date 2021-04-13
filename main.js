@@ -15,11 +15,4 @@ btn.addEventListener('click', function() {
         left: 0,
         behavior: "smooth"
     })
-
 })
-
-// const modal = document.getElementById('modal');
-
-// modal.addEventListener('click', function() {
-//     modal.parentNode.removeChild(modal);
-// })
